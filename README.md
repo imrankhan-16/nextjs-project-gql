@@ -18,18 +18,20 @@ Follow these steps to get the project up and running on your local machine:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-personal-username/your-repo-name.git
    cd your-repo-name
 
 Install the required dependencies:
+
 npm install
 
 Run the development server:
+
 npm run dev
 
 Open http://localhost:3000 to view the app in the browser.
 
 Usage
+
 The app provides a GraphQL endpoint at:
 
 http://localhost:3000/api/graphql
