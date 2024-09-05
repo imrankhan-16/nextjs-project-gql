@@ -38,14 +38,18 @@ http://localhost:3000/api/graphql
 
 
 Testing the GraphQL API
+
 You can test the GraphQL API in two ways:
 
 Using Postman
 http://localhost:3000/api/graphql
+
 In the body section, select raw and choose JSON format. Enter the following GraphQL query to get the list of products:
+
 {
   "query": "{ products { id name price } }"
 }
+
 
 
 GraphQL Query
@@ -61,8 +65,12 @@ To fetch the list of products, use the following GraphQL query:
 
 
 Technologies Used
+
 Next.js: Framework for React with server-side rendering and static site generation.
+
 Apollo Server: A GraphQL server library used to define the API.
+
 GraphQL: Query language for APIs used to fetch products.
+
 Apollo Client: A library used to fetch data from the GraphQL API on the frontend.
 
